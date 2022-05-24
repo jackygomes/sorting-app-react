@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 import { useState } from 'react';
+import './style.css';
 
 const customStyles = {
   content: {

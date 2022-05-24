@@ -1,0 +1,32 @@
+.peopleList {
+  border-collapse: collapse;
+  width: 100%;
+}
+.peopleList div{
+  display: contents;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #afdbf8;
+  text-align: left;
+  color: #3a6785;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #afdbf8;
+  color: #3a6785;
+}
+tr {
+  cursor: pointer;
+}

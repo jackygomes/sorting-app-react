@@ -1,0 +1,39 @@
+.wrapper {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #f5f5f5;
+}
+
+.button {
+  padding: 12px 20px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 15px;
+  background-color: #ff8d00;
+  border: none;
+  cursor: pointer;
+}
+.start-button {
+  float: right;
+}
+.listSection {
+  padding: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+h3 {
+  text-align: right;
+  padding: 0 20px;
+}
+.timer {
+  float: left;
+}
+.successMsg {
+  text-align: left;
+  background-color: #51a372;
+  color: #efefef;
+  padding: 10px 20px;
+}

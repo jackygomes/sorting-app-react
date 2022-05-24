@@ -1,0 +1,29 @@
+.pop-wrapper {
+  display: inline-block;
+  float: right;
+}
+.ReactModal__Content {
+  padding: 0 !important;
+  width: 400px;
+}
+.popup-header {
+  padding: 20px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.modal-body {
+  padding: 20px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.popup-close-button {
+  float: right;
+  cursor: pointer;
+}
+.people-input {
+  border: 1px solid #ddd;
+  width: 350px;
+  height: 20px;
+}
+.modal-footer {
+  text-align: right;
+  padding: 10px 20px;
+}
