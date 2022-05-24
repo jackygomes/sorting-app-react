@@ -1,31 +1,54 @@
-.App {
-  text-align: center;
+.wrapper {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 3px;
+  background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  padding: 12px 20px;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 15px;
+  background-color: #ff8d00;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.start-button {
+  float: right;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pop-wrapper {
+  display: inline-block;
+  float: right;
 }
-
-.App-link {
-  color: #61dafb;
+.ReactModal__Content {
+  padding: 0 !important;
+  width: 400px;
+}
+.popup-header {
+  padding: 20px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.modal-body {
+  padding: 20px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.popup-close-button {
+  float: right;
+  cursor: pointer;
+}
+.people-input {
+  border: 1px solid #ddd;
+  width: 350px;
+  height: 20px;
+}
+.modal-footer {
+  text-align: right;
+  padding: 10px 20px;
 }
 
 @keyframes App-logo-spin {
